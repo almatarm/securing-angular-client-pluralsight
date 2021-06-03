@@ -7,8 +7,6 @@ import { MilestoneStatus } from '../model/milestone-status';
 import { Project } from '../model/project';
 import { UserPermission } from '../model/user-permission';
 import { UserProfile } from '../model/user-profile';
-import { CoreModule } from './core.module';
-
 
 @Injectable()
 export class ProjectService {
